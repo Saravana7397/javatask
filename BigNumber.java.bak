@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class BigNumber
+{
+  public static void main(String[] args)
+  {
+   Scanner input = new Scanner(System.in);
+   System.out.print("The number is : ");
+   int a = input.nextInt();
+   System.out.print("The number is : ");
+   int b = input.nextInt();
+   System.out.print("The number is : ");
+   int c = input.nextInt();
+   int d= (a<b,a<c,b<a)?(b<c,c<a,c<b);
+   System.out.println("biggest number is : "+c);
+   
+  
+  }
+}  
